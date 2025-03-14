@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abu Zawad Ahmed - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        .hero {
+            background: url('430278310_3764005397202278_5922953145949066987_n.jpg') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            position: relative;
+        }
+        .hero::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .hero .container {
+            position: relative;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Abu Zawad's Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <h1>Abu Zawad Ahmed</h1>
+            <p>Software QA | Developer | ML Enthusiast</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container my-5">
+        <h2>About Me</h2>
+        <p>Motivated Computer Science and Engineering graduate from BRAC University with an interest in manual testing, test case design, and software development. Proven
+            ability to take part in projects in web applications and machine learning. Seeking an entry-level role in Software Quality Assurance (SQA) or software development, eager
+            to contribute to innovative solutions while expanding technical and testing skills.</p>
+    </section>
+    
+    <!-- Projects Section -->
+    <section id="projects" class="container my-5">
+        <h2>Projects</h2>
+        <ul>
+            <li><a href="https://github.com/zawad08/T_project1">Simple Homepage (HTML & CSS)</a></li>
+            <li><a href="https://github.com/zawad08/Test-Case-1">Manual Testing Test Cases</a></li>
+            <li><a href="https://github.com/zawad08/PSD-to-HTML-CSS">PSD to HTML</a></li>
+        </ul>
+    </section>
+    
+    <!-- Resume Section -->
+    <section id="resume" class="container my-5">
+        <h2>Resume</h2>
+        <p><a href="Abu_Zawad_Ahmed.pdf" download>Download My CV</a></p>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="container my-5">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:zawadahmed08@gmail.com">zawadahmed08@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/zawad08" target="_blank">github.com/zawad08</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/abu-zawad-ahmed-800403341/" target="_blank">LinkedIn Profile</a></p>
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.8);
+}
+
+/* Hero Section */
+.hero {
+    background: url('images/430278310_3764005397202278_5922953145949066987_n.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+/* Sections */
+section {
+    background: white;
+    padding: 60px 20px;
+    margin: 40px auto;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    max-width: 80%;
+    text-align: center;
+}
+
+/* Project Links */
+#projects ul {
+    list-style: none;
+    padding: 0;
+}
+
+#projects li {
+    margin: 10px 0;
+}
+
+#projects a {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+#projects a:hover {
+    background: #0056b3;
+}
+
+/* Resume Button */
+#resume a {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #28a745;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+#resume a:hover {
+    background: #218838;
+}
+
+/* Contact Section */
+#contact p {
+    font-size: 1.1rem;
+}
+
+#contact a {
+    color: #007bff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Smooth Scrolling Effect */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    .hero p {
+        font-size: 1.2rem;
+    }
+
+    section {
+        max-width: 95%;
+    }
+}
